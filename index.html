@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mundo das Letras: atividades acessíveis de alfabetização, leitura e jogos.">
+  <title>Mundo das Letras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#inicio" aria-label="Mundo das Letras, início">
+        <span class="brand-icon" aria-hidden="true">📚</span>
+        <span>Mundo das Letras <span class="heart"></span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">☰ <span
+          class="sr-only">Abrir menu</span></button>
+      <nav id="mainNav" aria-label="Navegação principal">
+        <a class="nav-link active" href="#inicio"><span class="nav-icon" aria-hidden="true">🏠</span><span>Início</span></a>
+        <a class="nav-link" href="#alfabeto"><span class="nav-icon" aria-hidden="true">🔤</span><span>Alfabeto</span></a>
+        <a class="nav-link" href="#silabas"><span class="nav-icon" aria-hidden="true">📖</span><span>Sílabas</span></a>
+        <a class="nav-link" href="#palavras"><span class="nav-icon" aria-hidden="true">💬</span><span>Palavras</span></a>
+        <a class="nav-link" href="#frases"><span class="nav-icon" aria-hidden="true">📝</span><span>Frases</span></a>
+        <a class="nav-link" href="#jogos"><span class="nav-icon" aria-hidden="true">🎮</span><span>Jogos</span></a>
+        <a class="nav-link" href="#progresso"><span class="nav-icon" aria-hidden="true">🏆</span><span>Progresso</span></a>
+      </nav>
+      <button class="access-button" id="openAccessibility">🧩 Acessibilidade</button>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container">
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">✦ Aprenda no seu ritmo</span>
+        <h1>Bem-vindo ao<br><span>Mundo das Letras!</span></h1>
+        <p>Aprender pode ser divertido! Vamos<br class="desktop-only"> descobrir o mundo das letras juntos?</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#alfabeto">▶ Começar a aprender</a>
+          <button class="button secondary" id="continueButton">⟳ Continuar aprendendo</button>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg class="hero-illustration" viewBox="0 0 700 410" role="img" aria-label="Livro aberto com as letras A, B e C">
+          <defs>
+            <linearGradient id="pageLeft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#eee5ff"/></linearGradient>
+            <linearGradient id="pageRight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f8efff"/></linearGradient>
+            <linearGradient id="purpleLetter" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b783ff"/><stop offset=".48" stop-color="#8547e9"/><stop offset="1" stop-color="#5723bb"/></linearGradient>
+            <linearGradient id="goldLetter" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe36b"/><stop offset=".5" stop-color="#ffb900"/><stop offset="1" stop-color="#e88700"/></linearGradient>
+            <linearGradient id="pinkLetter" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff9db6"/><stop offset=".52" stop-color="#f05c83"/><stop offset="1" stop-color="#d83262"/></linearGradient>
+            <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a6e9c1"/><stop offset="1" stop-color="#36a66a"/></linearGradient>
+            <filter id="letterShadow" x="-.3" y="-.2" width="1.7" height="1.6"><feDropShadow dx="0" dy="12" stdDeviation="5" flood-color="#432174" flood-opacity=".28"/></filter>
+            <filter id="bookShadow" x="-.1" y="-.2" width="1.2" height="1.5"><feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#482482" flood-opacity=".24"/></filter>
+          </defs>
+          <!-- Nuvens, folhagens e pequenos brilhos -->
+          <g fill="#fff" opacity=".88"><ellipse cx="133" cy="88" rx="43" ry="17"/><circle cx="120" cy="77" r="19"/><circle cx="145" cy="72" r="25"/><ellipse cx="599" cy="67" rx="43" ry="16"/><circle cx="580" cy="56" r="19"/><circle cx="608" cy="48" r="25"/><ellipse cx="651" cy="130" rx="31" ry="12"/><circle cx="640" cy="122" r="15"/></g>
+          <g stroke="#369e66" stroke-width="5" stroke-linecap="round"><path d="M92 304Q89 237 50 180M99 283Q130 223 145 178M617 300Q622 226 666 180M615 276Q580 214 564 178"/></g>
+          <g fill="url(#leaf)"><ellipse cx="59" cy="207" rx="15" ry="33" transform="rotate(-38 59 207)"/><ellipse cx="121" cy="229" rx="15" ry="34" transform="rotate(34 121 229)"/><ellipse cx="77" cy="257" rx="15" ry="33" transform="rotate(-48 77 257)"/><ellipse cx="653" cy="211" rx="15" ry="34" transform="rotate(38 653 211)"/><ellipse cx="586" cy="230" rx="15" ry="34" transform="rotate(-35 586 230)"/><ellipse cx="637" cy="261" rx="15" ry="32" transform="rotate(45 637 261)"/></g>
+          <g fill="#ffbd20"><path d="m194 30 6 13 14 2-10 9 3 14-13-7-12 7 2-14-10-9 14-2z"/><path d="m590 101 5 11 12 2-9 8 2 12-10-6-11 6 2-12-9-8 12-2z"/><circle cx="543" cy="38" r="4"/><circle cx="245" cy="78" r="4"/></g>
+          <g fill="none" stroke="#ffbf28" stroke-width="4" stroke-linecap="round"><path d="m263 49 3 12m18-20 1 10m-42 32-6 8m284-41 4 10"/></g>
+          <!-- Livro aberto com páginas em camadas -->
+          <g filter="url(#bookShadow)">
+            <path d="M55 314Q184 281 346 315Q493 278 654 309L681 362Q507 331 350 379Q198 335 27 372Z" fill="#7138c8"/>
+            <path d="M38 296Q191 259 350 302Q510 261 667 293L681 348Q510 315 350 361Q191 320 25 358Z" fill="#d9c5fa"/>
+            <path d="M35 282Q192 248 350 290L350 350Q193 313 26 345Z" fill="url(#pageLeft)"/>
+            <path d="M350 290Q511 248 672 279L680 343Q510 309 350 350Z" fill="url(#pageRight)"/>
+            <path d="M350 292V350" stroke="#d5c5e9" stroke-width="5"/>
+            <path d="M49 299Q200 271 335 304M42 314Q196 286 335 319M367 305Q507 269 656 292M367 320Q515 284 663 307" fill="none" stroke="#e3d8f0" stroke-width="3" opacity=".8"/>
+          </g>
+          <!-- Letras 3D em destaque -->
+          <g font-family="Nunito, Arial, sans-serif" font-weight="1000" text-anchor="middle" filter="url(#letterShadow)">
+            <text x="277" y="274" font-size="262" fill="#5527b8" stroke="#5527b8" stroke-width="22" stroke-linejoin="round">A</text>
+            <text x="271" y="254" font-size="262" fill="url(#purpleLetter)" stroke="#9860ed" stroke-width="7" stroke-linejoin="round">A</text>
+            <text x="434" y="267" font-size="222" fill="#d78000" stroke="#d78000" stroke-width="20" stroke-linejoin="round">B</text>
+            <text x="430" y="249" font-size="222" fill="url(#goldLetter)" stroke="#ffd044" stroke-width="7" stroke-linejoin="round">B</text>
+            <text x="562" y="300" font-size="174" fill="#bd315a" stroke="#bd315a" stroke-width="17" stroke-linejoin="round">C</text>
+            <text x="558" y="284" font-size="174" fill="url(#pinkLetter)" stroke="#ff829e" stroke-width="6" stroke-linejoin="round">C</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="progress-strip" aria-label="Resumo do progresso">
+      <div class="trophy">🏆</div>
+      <div class="progress-label">
+        <h2>Meu progresso</h2>
+        <p><strong id="starCount">0</strong> estrelas conquistadas</p>
+      </div>
+      <div class="progress-track">
+        <div id="progressFill" class="progress-fill"></div>
+      </div>
+      <strong id="progressPercent" class="percent">0%</strong>
+      <a href="#progresso" class="progress-link">Ver progresso →</a>
+    </section>
+
+    <section class="learning-path">
+      <div class="section-heading"><span class="signpost">⚑</span>
+        <h2>Sua trilha de aprendizagem</h2>
+        <p>Escolha por onde quer começar.</p>
+      </div>
+      <div class="path-grid">
+        <a class="path-card lavender" href="#alfabeto"><span class="level">NÍVEIS 1 E 2</span>
+          <div class="path-emoji">🔠</div>
+          <h3>Alfabeto</h3>
+          <p>Conheça as letras, vogais e consoantes.</p><b>Explorar <span>→</span></b>
+        </a>
+        <a class="path-card pink" href="#silabas"><span class="level">NÍVEL 3</span>
+          <div class="path-emoji">📖</div>
+          <h3>Sílabas</h3>
+          <p>Junte letras e descubra novos sons.</p><b>Explorar <span>→</span></b>
+        </a>
+        <a class="path-card blue" href="#palavras"><span class="level">NÍVEL 4</span>
+          <div class="path-emoji">💬</div>
+          <h3>Palavras</h3>
+          <p>Reconheça e monte palavras do dia a dia.</p><b>Explorar <span>→</span></b>
+        </a>
+        <a class="path-card green" href="#frases"><span class="level">NÍVEL 5</span>
+          <div class="path-emoji">📝</div>
+          <h3>Frases</h3>
+          <p>Organize palavras e forme pequenas frases.</p><b>Explorar <span>→</span></b>
+        </a>
+        <a class="path-card yellow" href="#jogos"><span class="level">DIVERSÃO</span>
+          <div class="path-emoji">🎮</div>
+          <h3>Jogos</h3>
+          <p>Pratique o que aprendeu enquanto brinca!</p><b>Brincar <span>→</span></b>
+        </a>
+      </div>
+    </section>
+
+    <section id="alfabeto" class="learning-section">
+      <div class="section-title">
+        <div><span class="section-kicker">NÍVEIS 1 E 2</span>
+          <h2>🔤 Vamos conhecer o alfabeto?</h2>
+          <p>Escolha uma letra. Ouça seu nome e veja uma palavra que começa com ela.</p>
+        </div><button class="button secondary small" id="speakAlphabet">🔊 Ouvir alfabeto</button>
+      </div>
+      <div class="letter-grid" id="letterGrid" aria-label="Letras do alfabeto"></div>
+      <div class="activity-panel" id="letterDetail" aria-live="polite">
+        <div class="big-letter">A</div>
+        <div>
+          <h3>A de Abelha</h3>
+          <p>O A é uma vogal. Vamos falar juntos: AAAAA!</p><button class="button primary small"
+            data-speak="A de Abelha">🔊 Ouvir</button>
+        </div><span class="activity-art">🐝</span>
+      </div>
+    </section>
+
+    <section id="silabas" class="learning-section">
+      <div class="section-title">
+        <div><span class="section-kicker">NÍVEL 3</span>
+          <h2>📖 Brincando com sílabas</h2>
+          <p>Junte os pedacinhos para formar uma palavra.</p>
+        </div>
+      </div>
+      <div class="syllable-layout">
+        <div class="activity-card">
+          <div class="prompt-icon" id="syllablePicture" role="img" aria-label="Figura do sapo">🐸</div>
+          <h3>Qual palavra vamos formar?</h3>
+          <p>Toque nas sílabas na ordem certa.</p>
+          <div class="syllable-answer" id="syllableAnswer" aria-live="polite"><span class="placeholder">Escolha as
+              sílabas abaixo</span></div>
+          <div class="syllable-options" id="syllableOptions"></div>
+          <div class="button-row"><button class="button secondary small" id="resetSyllables">↶ Recomeçar</button><button
+              class="button primary small" id="checkSyllables">Conferir ✓</button></div>
+          <p class="feedback" id="syllableFeedback" aria-live="polite"></p>
+        </div>
+        <aside class="tip-card"><span>💡</span>
+          <h3>Dica</h3>
+          <p>Fale cada pedacinho devagar. Depois, junte os sons!</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="palavras" class="learning-section">
+      <div class="section-title">
+        <div><span class="section-kicker">NÍVEL 4</span>
+          <h2>💬 Descobrindo palavras</h2>
+          <p>Observe a figura e escolha a palavra correspondente.</p>
+        </div>
+      </div>
+      <div class="activity-card word-game">
+        <div class="word-picture" id="wordPicture">🍌</div>
+        <h3 id="wordQuestion">O que aparece na figura?</h3>
+        <div class="choice-grid" id="wordChoices"></div>
+        <p class="feedback" id="wordFeedback" aria-live="polite"></p>
+        <button class="button secondary small" id="nextWord">Próxima palavra →</button>
+      </div>
+    </section>
+
+    <section id="frases" class="learning-section">
+      <div class="section-title">
+        <div><span class="section-kicker">NÍVEL 5</span>
+          <h2>📝 Formando frases</h2>
+          <p>Coloque as palavras na ordem para montar uma frase.</p>
+        </div>
+      </div>
+      <div class="activity-card">
+        <div class="prompt-icon">🐱</div>
+        <h3>Monte a frase</h3>
+        <p>Toque nas palavras na ordem em que você quer colocá-las.</p>
+        <div class="sentence-answer" id="sentenceAnswer" aria-live="polite"></div>
+        <div class="word-bank" id="sentenceBank"></div>
+        <div class="button-row"><button class="button secondary small" id="resetSentence">↶ Limpar</button><button
+            class="button primary small" id="checkSentence">Conferir ✓</button></div>
+        <p class="feedback" id="sentenceFeedback" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="jogos" class="learning-section">
+      <div class="section-title">
+        <div><span class="section-kicker">DIVERSÃO</span>
+          <h2>🎮 Hora de brincar!</h2>
+          <p>Aprenda brincando. Você consegue!</p>
+        </div>
+      </div>
+      <div class="games-grid">
+        <article class="game-card">
+          <div class="game-icon">🔎</div>
+          <h3>Caça à letra</h3>
+          <p>Encontre a letra indicada.</p>
+          <div class="game-question" id="huntQuestion">Encontre a letra M</div>
+          <div class="game-options" id="huntOptions"></div>
+          <p class="feedback" id="huntFeedback" aria-live="polite"></p><button class="button secondary small"
+            id="newHunt">Nova rodada</button>
+        </article>
+        <article class="game-card">
+          <div class="game-icon">🧠</div>
+          <h3>Memória das figuras</h3>
+          <p>Encontre os pares iguais.</p>
+          <div class="memory-grid" id="memoryGrid"></div>
+          <p class="feedback" id="memoryFeedback" aria-live="polite">Encontre todos os pares!</p><button
+            class="button secondary small" id="restartMemory">Jogar novamente</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="progresso" class="learning-section">
+      <div class="section-title">
+        <div><span class="section-kicker">MINHA CAMINHADA</span>
+          <h2>🏆 Meu progresso</h2>
+          <p>Cada tentativa é uma conquista. Continue no seu ritmo!</p>
+        </div>
+      </div>
+      <div class="dashboard">
+        <div class="stat-card"><span>⭐</span><strong id="totalStars">0</strong>
+          <p>Estrelas</p>
+        </div>
+        <div class="stat-card"><span>🎯</span><strong id="activitiesDone">0</strong>
+          <p>Atividades concluídas</p>
+        </div>
+        <div class="stat-card"><span>🌱</span><strong id="streakText">Vamos começar!</strong>
+          <p>Seu aprendizado</p>
+        </div>
+      </div>
+      <div class="activity-card">
+        <h3>Suas conquistas</h3>
+        <div id="achievements" class="achievements">
+          <p>Conclua atividades para ganhar suas primeiras estrelas!</p>
+        </div><button class="button secondary small" id="resetProgress">Reiniciar meu progresso</button>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Mundo das Letras</span><span>Feito para aprender, no seu tempo.</span></footer>
+
+  <dialog id="accessibilityDialog" class="access-dialog">
+    <form method="dialog" class="dialog-head">
+      <h2>🧩 Acessibilidade</h2><button class="icon-button" aria-label="Fechar">✕</button>
+    </form>
+    <p>Personalize a página para ficar mais confortável.</p>
+    <label class="setting-row"><span>Texto maior</span><input type="checkbox" id="largeText"></label>
+    <label class="setting-row"><span>Alto contraste</span><input type="checkbox" id="highContrast"></label>
+    <label class="setting-row"><span>Reduzir animações</span><input type="checkbox" id="reduceMotion"></label>
+    <label class="setting-row"><span>Leitura em voz alta</span><input type="checkbox" id="voiceEnabled" checked></label>
+    <div class="button-row"><button class="button secondary" id="testVoice" type="button">🔊 Testar voz</button><button
+        class="button primary" id="closeAccessibility" type="button">Salvar</button></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
